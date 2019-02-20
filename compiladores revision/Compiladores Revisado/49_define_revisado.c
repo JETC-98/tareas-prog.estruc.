@@ -1,12 +1,12 @@
 /*
 49. E.P. que lea las calificaciones de 50 alumnos y que determine e
-imprima cuantos tienen calificación mayor al promedio del grupo.
+imprima cuantos tienen calificaciÃ³n mayor al promedio del grupo.
 Nombre:49
 Autor: Los Compiladores
 Fecha : 13Feb19
 Entradas: Calificaciones de 50 alumnos
-Salidas: cuantos tienen calificación mayor al promedio de grupo.
-Procedimiento General: Leer dos veces las calificaciones e imprimir cuantos tienen calificación mayor al promedio de grupo.
+Salidas: cuantos tienen calificaciÃ³n mayor al promedio de grupo.
+Procedimiento General: Leer dos veces las calificaciones e imprimir cuantos tienen calificaciÃ³n mayor al promedio de grupo.
 */
 #include <stdio.h>
 #include <stdlib.h>
@@ -17,10 +17,10 @@ int main(int argc, char *argv[]) {
 	int Cantidad_ACPMADG=0; //Alumnos Con Calificaciones Mayores Al De el Grupo
 	int i;
 	float Promedio_G=0;
-	//numbres muy largos en sus variables, ¿no es mas comodo usar palabras resumidas?
+	//numbres muy largos en sus variables, Â¿no es mas comodo usar palabras resumidas?
 	for(i=0; i<Alumno; i++){
 		//entrada para sacr promedio grupal
-		printf("Dime la calificacion del alumno Numero %d:  ", i+1);//confunde menos user el i=1, pero creo que es preferencia personal,así que pueden ignorar este comentario
+		printf("Dime la calificacion del alumno Numero %d:  ", i+1);//confunde menos user el i=1, pero creo que es preferencia personal,asÃ­ que pueden ignorar este comentario
 		scanf("%f",&Calificacion_A);
 		
 		Promedio_G=(Promedio_G + Calificacion_A);
@@ -62,7 +62,7 @@ int main(int argc, char *argv[]) {
 	
 	
 	
-	
+	//Daniel Encalada
 	
 	
 	

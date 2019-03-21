@@ -1,10 +1,11 @@
 /* 62. E.P que lea una matriz de 5 X 5 elementos y que calcule e imprima
-la suma de sus elementos que se encuentran en la diagonal principal.
+la suma de sus elementos que se encuentran en la diagonal principal.
+
 Equipo: SacaChispas
 
 Integrantes:
-Ricardo Nicolás Canul Ibarra
-Javier Alejandro Chim Cemé
+Ricardo NicolÃ¡s Canul Ibarra
+Javier Alejandro Chim CemÃ©
 
 Fecha: 11/marzo/2019
 Version: 1.0*/
@@ -29,7 +30,7 @@ int main() {
 		for Y
 		{
 			/*ENTRADA de datos*/
-			printf("\n\nInserte el número de la fila %i°, columna %i° ", i + 1, j + 1);
+			printf("\n\nInserte el nÃºmero de la fila %iÂ°, columna %iÂ° ", i + 1, j + 1);
 			scanf("%f", &matriz_numeros[i][j]);
 			
 			/*PROCESO para determinar la sumatoria de los elementos de la diagonal principal*/
@@ -47,3 +48,5 @@ int main() {
 	
 	return 0;
 }
+
+/*Nada que agregar,comprimieron el codigo tanto como se podia,tiene variables representativas y funciona*/

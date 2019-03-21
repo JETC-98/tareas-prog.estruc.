@@ -1,13 +1,13 @@
 /* 61. E.P. que lea las tres calificaciones parciales del semestre de cada
-uno de los 50 alumnos y los almacene en una matriz. Deber· imprimir
-la posiciÛn de los alumnos cuyo promedio final sea mayor al promedio
+uno de los 50 alumnos y los almacene en una matriz. Deber√° imprimir
+la posici√≥n de los alumnos cuyo promedio final sea mayor al promedio
 de grupo.
 
 Equipo: SacaChispas
 
 Integrantes:
-Ricardo Nicol·s Canul Ibarra
-Javier Alejandro Chim CemÈ
+Ricardo Nicol√°s Canul Ibarra
+Javier Alejandro Chim Cem√©
 
 Fecha: 11/marzo/2019
 Version: 1.0*/
@@ -35,17 +35,17 @@ int main() {
 		for Y
 		{
 			/*ENTRADA de datos*/
-			printf("\n\nInserte la calificaciÛn 1 del alumno en la fila %i, columna %i ", i + 1, j + 1);
+			printf("\n\nInserte la calificaci√≥n 1 del alumno en la fila %i, columna %i ", i + 1, j + 1);
 			scanf("%f", &calificacion_actual);
 			
 			sum += calificacion_actual;
 			
-			printf("\n\nInserte la calificaciÛn 2 del alumno en la fila %i, columna %i ", i + 1, j + 1);
+			printf("\n\nInserte la calificaci√≥n 2 del alumno en la fila %i, columna %i ", i + 1, j + 1);
 			scanf("%f", &calificacion_actual);
 			
 			sum += calificacion_actual;
 			
-			printf("\n\nInserte la calificaciÛn 3 del alumno en la fila %i, columna %i ", i + 1, j + 1);
+			printf("\n\nInserte la calificaci√≥n 3 del alumno en la fila %i, columna %i ", i + 1, j + 1);
 			scanf("%f", &calificacion_actual);
 			
 			sum += calificacion_actual;
@@ -84,3 +84,4 @@ int main() {
 	return 0;
 }
 
+/*Ps son variables con nombre muy largo pero no dejan duda de a que se refieren por lo tanto es una por otra*/

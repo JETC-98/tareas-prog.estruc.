@@ -1,0 +1,76 @@
+    *Sepa qué está tomando. Revise la lista de ingredientes y seleccione productos con el menor número de elementos en lista.
+    *Todos los medicamentos se vuelven menos eficaces con el tiempo y deben reemplazarse. Verifique la fecha de vencimiento antes de usar cualquier producto.
+    *Guarde los medicamentos en un lugar seco y fresco. Mantenga todos los medicamentos fuera del alcance de los niños. 
+    *Las mujeres embarazadas o que amamantan deben hablar con su proveedor antes de tomar cualquier medicamento nuevo.
+DOLOR DE CABEZA
+	*Paracetamol	
+    		-sufre una enfermedad renal o hepática grave
+   		-ingiere 3 o más bebidas que contienen alcohol todos los días
+    		-ya está tomando otro producto que contiene paracetamol.
+
+	*aspirina (2 marcas comerciales: Bayer, St. Joseph)
+		Aspirina Analgésico 40 Tabletas:$28
+	*ibuprofeno (2 marcas comerciales: Advil, Motrin)
+		ADVIL ORAL 20 CAP:$110(8hrs)
+	*naproxeno (marca comercial: Aleve).	
+		 Naproxeno 20 Tabletas:$42
+
+    		-es alérgico a la aspirina u otros analgésicos
+    		-ingiere 3 o más bebidas que contienen alcohol todos los días
+    		-tiene sangrado estomacal o en los intestinos, o tiene úlceras pépticas (estómago)
+    		-padece insuficiencia hepática o renal
+    		-tiene cardiopatías
+    		-toma medicamentos anticoagulantes o tiene trastorno hemorrágico
+INSOMNIO
+	*difenhidramina(Nytol, Sominex y Sleep-Eze)
+		Difenhidramina 20 Tabletas:$35
+		Nytol 50 mg 8 tabletas:$94
+		-No tomar mas de 2 semanas
+
+TOS
+	*Guaifenesina: ayuda a disolver el moco. Beba mucho líquido si toma este medicamento.
+	 	Dextrometorfa/Guaifenesina 120Ml Jarabe:$38
+    	*Pastillas para la garganta con mentol: alivian la "carraspera" en la garganta (Halls, Robitussin, Vicks).
+		Pastillas Vick Sabor Cereza:$18
+    	*Medicamentos líquidos para la tos con dextrometorfano: inhiben las ganas de toser (Benylin, Delsym, Robitussin DM, Simply Cough, Vicks 44 y marcas genéricas). 
+		Jarabe Vick 44 todo tipo de Tos 120ml:$115
+		
+DESCONGESTIONANTES NASALES
+	*Descongestionantes orales: seudoefedrina (Contac Non-Drowsy, Sudafed y marcas genéricas); fenilefrina (Sudafed PE y marcas genéricas).
+		Fenilefrina/Loratadina 30/5 Mg. 10Tabletas:$91
+		-Verifique con su proveedor antes de tomar descongestionantes si tiene presión arterial alta o problemas de la próstata.
+	*Aerosol nasal descongestionante: oximetazolina (Afrin, Neo-Synephrine Nighttime, Sinex en aerosol), fenilefrina (Neo-Synephrine, cápsulas de Sinex). 
+		Afrin Lub Adulto Spray 20mL:$63
+		-Los aerosoles nasales descongestionantes pueden hacer efecto más rápidamente, pero pueden tener un efecto de rebote si se usan durante más de 3 a 5 días. Los síntomas pueden empeorar si usted sigue usando estos aerosoles.
+DOLOR DE GARGANTA
+	*Aerosoles para calmar el dolor: diclonina (Cepacol), fenol (Chloraseptic).
+    	*Analgésicos: paracetamol (Tylenol), ibuprofeno (Advil, Motrin), naproxeno (Aleve).
+    	*Caramelos duros que recubran la garganta: chupar caramelos o pastillas para la garganta puede ser de mucho alivio.
+ALERGIAS
+	*Antihistamínicos que pueden causar sueño: difenhidramina (Benadryl), clorfeniramina (Chlor-Trimeton), bromfeniramina (Dimetapp) o clemastina (Tavist)
+    	*Los antihistamínicos que causan poco o nada de sueño: loratadina (Alavert, Claritin, Dimetapp ND), fexofenadina (Allegra), cetirizina (Zyrtec) 
+DIARREA
+	*Antidiarreicos como loperamida (Imodium): estos medicamentos desaceleran la acción del intestino y reducen el número de deposiciones.
+		-Hable con su proveedor antes de tomarlos porque pueden empeorar la diarrea causada por infección.
+	*Medicamentos que contienen bismuto: se pueden tomar para la diarrea leve (Kaopectate, Pepto-Bismol).
+
+DESHIDRATACION MODERADA
+	*Líquidos rehidratantes: se pueden usar para reponer liquidos perdidos por diarrea moderada y grave o/y vomitos (Enfalyte o Pedialyte)
+
+MALESTAR ESTOMACAL
+	*Líquidos y píldoras para el malestar estomacal: pueden aliviar las náuseas y los vómitos leves (Emetrol y Pepto-Bismol)
+
+MAREO
+	*Medicamentos para el mareo: dimenhidrinato (Dramamine), meclizina (Bonine, Antivert, Postafen y Sea Legs) 
+
+ERUPCIONES CUTÁNEAS Y PICAZÓN
+ 	*Crema de hidrocortisona: puede aliviar las erupciones cutáneas leves (Cortaid, Cortizone 10)
+	*Cremas y ungüentos antimicóticos: pueden ayudar con la dermatitis del pañal (pañalitis) y la erupción cutánea causada por hongos del género Candida (nistatina, miconazol, clotrimazol y ketaconazol) 
+ACIDEZ ESTOMACAL
+	*Los antiácidos reducen los efectos del ácido en su estómago. Lo hacen neutralizando el ácido. Los antiácidos pueden proporcionar un alivio rápido a corto plazo.
+		-Hable con su médico antes de tomar antiácidos si tiene una enfermedad renal. Debe evitar cualquier antiácido que contenga carbonato de calcio o hidróxido de aluminio y carbonato de magnesio a menos que su médico lo recomiende.
+	*Los inhibidores de la bomba de protones (IBP) reducen la producción de ácido de su cuerpo.El omeprazol (nombre de marca: Prilosec) y el lansoprazol (nombre de marca: Prevacid 24HR	
+    		-usted es una persona de edad avanzada o tiene problemas del sistema inmunológico. Los IBP pueden aumentar su riesgo de neumonía.
+   		-usted es una mujer posmenopáusica. Los IBP reducen la absorción de calcio y aumentan su riesgo de osteoporosis.
+    		-usted ha sido tratado por una infección por Clostridium difficile en el pasado. Los IBP pueden aumentar el riesgo de que regrese su infección.
+

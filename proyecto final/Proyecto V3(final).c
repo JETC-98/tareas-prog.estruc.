@@ -1,5 +1,5 @@
-/*Proyecto final (Cat·logo de Medicinas)
-El ìProyectoî tiene como objetivo informar acerca de medicamentos de venta libre o sin prescripciÛn mÈdica.
+/*Proyecto final (Cat√°logo de Medicinas)
+El ‚ÄúProyecto‚Äù tiene como objetivo informar acerca de medicamentos de venta libre o sin prescripci√≥n m√©dica.
 */
 
 //Librerias
@@ -8,7 +8,7 @@ El ìProyectoî tiene como objetivo informar acerca de medicamentos de venta libre
 #include <windows.h>
 #include <stdlib.h>
 
-//DeclaraciÛn de funciones
+//Declaraci√≥n de funciones
 void color(char color);
 void pantalla_de_presentacion();
 void pantalla_principal();
@@ -17,10 +17,12 @@ void pantalla_sintomas();
 void pantalla_alergias();
 void pantalla_salida();
 
-//FunciÛn principal
+//Funci√≥n principal
 int main() {
 	
 	int s,a,vacio=0;
+	/*s=sintomas,a=alergias, "vacio" es para imprimir una disculpa en caso de que no
+	se encuentre medicina con las caracteristicas pedidas*/
 	//vector sintomas
 	char sintomas [6][30]={"1.- DOLOR DE CABEZA",//vector de sintomas
 		"2.- INSOMNIO",
@@ -61,6 +63,8 @@ int main() {
 		"Dimenhidrinato 24 tabletas:$34",
 		"Dramamine 24 tabletas:$115",
 	};
+	/*vector hecho para cotejar las selecciones hechas por el cliente con nuestra base de datos
+	la PRIMERA COLUMNA es el numero del sintoma que trata mientras que la SEGUNDA es el compuesto que tiene*/
 	int relaciones [16][2]={1,1,
 		1,2,
 		1,3,
@@ -90,8 +94,9 @@ int main() {
 		printf ("\n");
 	}
 	printf ("\nSeleccione el numero del sintoma que padece. ");
-	scanf  ("%d",&s);//variable para guardar el sÌntoma. 
+	scanf  ("%d",&s);//variable para guardar el s√≠ntoma. 
 	
+	//condicion por si el usuario ingresa caracter no valido
 	if (s<1 || s>6)
 	{
 		printf ("numero no valido intente otra vez\n");
@@ -104,6 +109,7 @@ int main() {
 	system("cls");//Limpiar pantalla
 	
 	pantalla_alergias();
+	
 	//impresion de alegias
 	for (int i=0;i<13;i++)
 	{
@@ -111,7 +117,9 @@ int main() {
 		printf ("\n");
 	}
 	printf ("\nSeleccione el numero de la alergia que tiene. ");
-	scanf  ("%d",&a);//variable para guardar el sÌntoma.
+	scanf  ("%d",&a);//variable para guardar el s√≠ntoma.
+	
+	//condicion por si el cliente ingresa caracter no valido
 	if (a<1 || a>13)
 	{
 		printf ("numero no valido intente otra vez\n");
@@ -124,6 +132,9 @@ int main() {
 	system("cls");//Limpiar pantalla
 	
 	pantalla_medicinas();
+	
+	/*Impresion de las medicinas que se ajustan al pedido del usuario
+	Se hizo comparando las selecciones de sintoma y alergia con el vector de "relaciones"*/
 	printf ("\n");
 	for (int i=0;i<15;i++)
 	{
@@ -137,6 +148,8 @@ int main() {
 			}
 		};
 	}
+	
+	//condicional por si no se encuentra una medicina que llene los requerimientos del usuario
 	if (vacio==0)
 	{
 		printf ("Lo sentimos no tenemos medicina con que cumpla sus requerimientos");
@@ -157,27 +170,27 @@ void color(char color){//Cambio de color
 	hConsole = GetStdHandle(STD_OUTPUT_HANDLE);
 	SetConsoleTextAttribute(hConsole, color);
 }
-void pantalla_de_presentacion(){//Imprimir la pantalla de presentaciÛn
+void pantalla_de_presentacion(){//Imprimir la pantalla de presentaci√≥n
 	
 	color(11);
 	printf("  ____________________________________________________________________________________\n");
 	printf(" |                                                                        _           |\n");
-	printf(" |   _____                                                               /_/          |\n");//Primera lÌnea
-	printf(" |  | ___ | _____  _____  _____  _____  _____  _____  _____  _____  _  _____  _____   |\n");//Segunda lÌnea
-	printf(" |  |  ___||  ___||  _  || ___ ||  ___||____ ||     ||____ ||  ___|| ||  _  ||   | |  |\n");//Tercera lÌnea
-	printf(" |  | |    | |    | |_| ||___  || |    | ___ || | | || ___ || |___ | || |_| || | | |  |\n");//Cuarta lÌnea
-	printf(" |  |_|    |_|    |_____| ___| ||_|    |_____||_|_|_||_____||_____||_||_____||_|___|  |\n");//Quinta lÌnea
-	printf(" |                       |_____|                                                      |\n");//Sexta lÌnea
+	printf(" |   _____                                                               /_/          |\n");//Primera l√≠nea
+	printf(" |  | ___ | _____  _____  _____  _____  _____  _____  _____  _____  _  _____  _____   |\n");//Segunda l√≠nea
+	printf(" |  |  ___||  ___||  _  || ___ ||  ___||____ ||     ||____ ||  ___|| ||  _  ||   | |  |\n");//Tercera l√≠nea
+	printf(" |  | |    | |    | |_| ||___  || |    | ___ || | | || ___ || |___ | || |_| || | | |  |\n");//Cuarta l√≠nea
+	printf(" |  |_|    |_|    |_____| ___| ||_|    |_____||_|_|_||_____||_____||_||_____||_|___|  |\n");//Quinta l√≠nea
+	printf(" |                       |_____|                                                      |\n");//Sexta l√≠nea
 	printf(" |                                                                                    |\n");
-	printf(" | _____           _                           _                             _        |\n");//Septima lÌnea
-	printf(" ||  ___| _____  _| |_  _____  _   _  _____  _| |_  _   _  _____  _____     | | _____ |\n");//Octava lÌnea
-	printf(" || |_   | ____||_   _||  ___|| | | ||  ___||_   _|| | | ||  ___||____ | ___| ||____ ||\n");//Novena lÌnea
-	printf(" || |___ |____ |  | |  | |    | |_| || |___   | |  | |_| || |    | ___ || ___ || ___ ||\n");//DÈcima lÌnea
-	printf(" ||_____||_____|  |_|  |_|    |_____||_____|  |_|  |_____||_|    |_____||_____||_____||\n");//Onceava lÌnea
+	printf(" | _____           _                           _                             _        |\n");//Septima l√≠nea
+	printf(" ||  ___| _____  _| |_  _____  _   _  _____  _| |_  _   _  _____  _____     | | _____ |\n");//Octava l√≠nea
+	printf(" || |_   | ____||_   _||  ___|| | | ||  ___||_   _|| | | ||  ___||____ | ___| ||____ ||\n");//Novena l√≠nea
+	printf(" || |___ |____ |  | |  | |    | |_| || |___   | |  | |_| || |    | ___ || ___ || ___ ||\n");//D√©cima l√≠nea
+	printf(" ||_____||_____|  |_|  |_|    |_____||_____|  |_|  |_____||_|    |_____||_____||_____||\n");//Onceava l√≠nea
 	printf(" |____________________________________________________________________________________|");
 	
 	printf("\n");
-	printf("  Este es el proyecto final del equipo ProgramaciÛn estructurada.");
+	printf("  Este es el proyecto final del equipo Programaci√≥n estructurada.");
 	
 	printf("\n");
 	
@@ -207,9 +220,9 @@ void pantalla_principal(){//Imprimir la pantalla principal
 	
 	color(8);
 	printf ("\n        ***ADVERTENCIAS***\n");
-	printf ("*Sepa quÈ est· tomando. Revise la lista de ingredientes y seleccione productos con el menor n˙mero de elementos en lista. \n"
+	printf ("*Sepa qu√© est√° tomando. Revise la lista de ingredientes y seleccione productos con el menor n√∫mero de elementos en lista. \n"
 			"*Todos los medicamentos se vuelven menos eficaces con el tiempo y deben reemplazarse. Verifique la fecha de vencimiento antes de usar cualquier producto.\n"
-			"*Guarde los medicamentos en un lugar seco y fresco. Mantenga todos los medicamentos fuera del alcance de los niÒos.\n"
+			"*Guarde los medicamentos en un lugar seco y fresco. Mantenga todos los medicamentos fuera del alcance de los ni√±os.\n"
 			"*Las mujeres embarazadas o que amamantan deben hablar con su proveedor antes de tomar cualquier medicamento nuevo.\n");
 	
 	color(13);
@@ -231,7 +244,7 @@ void pantalla_principal(){//Imprimir la pantalla principal
 	
 }
 
-void pantalla_sintomas(){//Imprimir la pantalla de sÌntomas
+void pantalla_sintomas(){//Imprimir la pantalla de s√≠ntomas
 	
 	color(9);
 	printf(" _____  _\n");
